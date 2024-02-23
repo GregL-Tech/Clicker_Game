@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" style="font-family: arial">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+        <meta charset="utf-8" />
+    </head>
+    <script src="/scripts/building.js"></script>
+    <script src="/scripts/script.js"></script>
+    <body>
+        <main>
+            <h1>Score:</h1>
+            <h2 id="score">0</h2>
+            <button type="button" onclick="scorePlusPlus()">Click Me!</button>
+            <br />
+            <hr />
+            <button
+                type="button"
+                id="buySingleCursor"
+                onclick="cursor.purchase()"
+            ></button>
+            <button
+                type="button"
+                id="buySingleSugar"
+                onclick="sugar.purchase()"
+            ></button>
+            <button
+                type="button"
+                id="buySingleMixer"
+                onclick="mixer.purchase()"
+            ></button>
+            <button
+                type="button"
+                id="buySingleSalt"
+                onclick="salt.purchase()"
+            ></button>
+        </main>
+    </body>
+</html>
